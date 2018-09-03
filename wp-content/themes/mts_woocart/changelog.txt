@@ -1,0 +1,538 @@
+v1.3.12 (June 15, 2018)
+-----------------------------
+- Fixed woocommerce compatibility issues
+- Fixed authorposts widget showing wrong author posts
+- Fixed PHP 7.2 and minor code issues
+
+Files Updated:
+- style.css
+- functions.php
+- functions/widget-authorposts.php
+- functions/widget-catposts.php
+- functions/widget-popular.php
+- functions/widget-postslider.php
+- functions/widget-productslider.php
+- functions/widget-recentposts.php
+- functions/widget-relatedposts.php
+- functions/theme-actions.php
+- woocommerce/archive-product.php
+- woocommerce/content-product.php
+- woocommerce/cart/cart.php
+
+
+v1.3.11 (May 22, 2018)
+-----------------------------
+- Added GDPR compliant comment & contact form
+
+Files Updated:
+- style.css
+- functions.php
+- comments.php
+- functions/contact-form.php
+- js/contact.js
+
+
+v1.3.10 (Mar 27, 2018)
+-----------------------------
+- Fixed plugin install issue on "Install Required Plugins" page
+
+Files Updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- js/addons.js
+- css/addons.css
+
+
+v1.3.9 (March 22, 2018)
+-----------------------------
+- Fixed woocommerce compatibility issues
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/single-product/product-image.php
+- woocommerce/single-product/product-image.php
+
+
+v1.3.8 (March 15, 2018)
+-----------------------------
+- Improved child theme compatibility
+- Fixed minor PHP warnings and errors
+
+Files updated:
+- functions.php
+- style.css
+- options/fields/post_multi_select/field_posts_multi_select.php
+- options/fields/post_select/field_posts_select.php
+- options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php
+- options/fields/tags_multi_select/field_tags_multi_select.php
+- options/fields/tags_select/field_tags_select.php
+
+v1.3.7 (Feb 28, 2018)
+-----------------------------
+- Fixed products page infinite scroll issue
+
+Files updated:
+- js\ajax.js
+
+
+v1.3.6 (Feb 13, 2018)
+-----------------------------
+- Compatibility with WooCommerce 3.3.1
+
+NOTE: This update requires the latest version of WooCommerce (3.3.1)
+
+Files updated:
+- functions.php
+- lang/mythemeshop.pot
+- style.css
+- woocommerce/archive-product.php
+- woocommerce/cart/cart.php
+- woocommerce/loop/pagination.php
+- woocommerce/product-searchform.php
+
+v1.3.5 (Dec 31, 2017)
+-----------------------------
+- Disabled transition effect on WooCommerce product images as it conflicts with the zoom feature on images.
+- Fixed WooCommerce deprecated warnings
+
+Files updated:
+- css/woocommerce.css
+- functions.php
+- functions/theme-actions.php
+- lang/mythemeshop.pot
+- style.css
+
+v1.3.4 (Oct 24, 2017)
+-----------------------------
+- Added color picker styles on nav menu screen
+- Fixed Featured Product Categories checkboxes
+
+Files updated:
+- functions.php
+- style.css
+- functions/nav-menu.php
+- options/css/options.css
+
+v1.3.3 (Oct 13, 2017)
+-----------------------------
+- Fixed WooCommerce v3.2.0 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/cart/cart-shipping.php
+- lang/mythemeshop.pot
+
+v1.3.2 (Jul 7, 2017)
+-----------------------------
+- WC 3.1 template fixes
+- WC 3.0 featured products bug fix
+- Included few missing strings in theme translation file
+- Updated translation file
+- Fixed PHP 7 warnings in Options Panel
+- Other small fixes
+
+Files updated:
+- functions.php
+- style.css
+- functions/theme-actions.php
+- options/fields/background/field_background.php
+- options/fields/group/field_group.php
+- options/options.php
+- woocommerce/cart/cart-shipping.php
+- woocommerce/cart/cart.php
+- woocommerce/featured-products.php
+- woocommerce/single-product/product-image.php
+- woocommerce/single-product/product-thumbnails.php
+- woocommerce/single-product/rating.php
+- lang/mythemeshop.pot
+
+
+v1.3.1 (Jun 7, 2017)
+-----------------------------
+- Offers page WC 3 bug fixes
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product-offer.php
+- woocommerce/offer-products.php
+
+
+v1.3.0 (May 11, 2017)
+-----------------------------
+- Added option to disable/reorder homepage product tabs
+
+Files updated:
+- functions.php
+- style.css
+- index.php
+- theme-options.php
+
+
+v1.2.9 (Apr 19, 2017)
+-----------------------------
+- Added option to enable WooCommerce 3 gallery ( Regenerating thumbnails required so that gallery thumbnails are sharp )
+- Enable old PrettyPhoto lightbox if WooCommerce 3 gallery is turned off
+
+Files updated:
+- functions.php
+- style.css
+- theme-options.php
+- woocommerce/single-product/product-image.php
+- css/woocommerce.css
+
+Files Added:
+- woocommerce/single-product/product-image.php
+- woocommerce/single-product/product-thumbnails.php
+
+
+v1.2.8 (Apr 14, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.3 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/cart/cart.php
+
+
+v1.2.7 (Apr 14, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.2 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/single-product/product-image.php
+
+
+v1.2.6 (Apr 11, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.1 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product.php
+
+
+v1.2.5 (Apr 05, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.0 compatibility issues
+
+Files updated:
+- functions.php
+- style.css
+- css/woocommerce.css
+- options/google-typography/google-typography.php
+- js/jquery.prettyPhoto.js
+- woocommerce/cart/cart.php
+- woocommerce/compare.php
+- woocommerce/single-product/price.php
+- woocommerce/single-product/product-image.php
+
+
+v1.2.4 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/mythemeshop.pot
+- style.css
+
+v1.2.3 (Feb 22, 2017)
+-----------------------------
+- Improved appearance of cart table on smaller screens
+
+Files updated:
+- css/responsive.css
+- functions.php
+- style.css
+- woocommerce/cart/cart.php
+
+v1.2.2 (Jan 20, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.1 (Jan 15, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2 (Jan 3, 2017)
+-----------------------------
+- Fixed demo importer issue on some servers
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+
+v1.1.9 (Nov 6, 2016)
+-----------------------------
+- Fixed small header cart button alignment issue on certain screen sizes
+
+Files updated:
+- style.css
+- functions.php
+- css/responsive.css
+
+
+v1.1.8 (Nov 02, 2016)
+-----------------------------
+- Updated schema code
+- Fixed duplicate title tag
+- Updated translation template
+
+Files updated:
+- archive.php
+- functions.php
+- functions/theme-actions.php
+- header.php
+- lang/default.mo
+- lang/default.pot
+- page-blog.php
+- post-format/format-audio.php
+- post-format/format-gallery.php
+- post-format/format-image.php
+- post-format/format-video.php
+- search.php
+- single.php
+- singlepost-parallax.php
+- style.css
+
+v1.1.7 (Oct 22, 2016)
+-----------------------------
+- One click demo importer improvements
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+- functions/plugin-activation.php
+
+
+v1.1.6 (Jul 26, 2016)
+-----------------------------
+- Update WC template file
+
+Files updated:
+- style.css
+- functions.php
+- woocommerce/single-product/product-image.php
+
+
+v1.1.5 (Jun 22, 2016)
+-----------------------------
+- Fixed WC 2.6 issues
+- Updated "MyThemeShop: AJAX attribute filter" widget
+
+Files updated:
+- style.css
+- functions.php
+- functions/widget-ajax-layered-nav.php
+- js/wc-ajax-attr-filters.php
+- woocommerce/content-product.php
+
+
+v1.1.4 (Mar 21, 2016)
+-----------------------------
+- Added one clcik demo import feature
+- Updated image uploader
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/demo-importer/
+- functions/plugin-activation.php
+
+
+v1.1.3 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.2 (Mar 9, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.1 (Feb 06, 2016)
+-----------------------------
+- Added recommended plugins page
+
+Files changed:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+- js/addons.js
+
+
+v1.1.0 (Feb 05, 2016)
+-----------------------------
+- Fixed WC 2.5 issues
+- Fixed add to cart issues when "Enable AJAX add to cart buttons on archives" WC option is unchecked
+
+Files updated:
+- style.css
+- functions.php
+- woocommerce/cart/cart-shipping.php
+- woocommerce/content-product.php
+
+
+v1.0.9 (Nov 10, 2015)
+-----------------------------
+- Fixed outdated template notice
+- Added filters to homepage tabs query args
+
+Files updated:
+- style.css
+- functions.php
+- index.php
+- woocommerce/single-product/price.php
+
+
+v1.0.8 (Sep 9, 2015)
+-----------------------------
+- Changed widget constructors to PHP 5 style
+- Fixed twitter widget PHP notice
+- Fixed structured data errors
+- Fixed translation issues
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- functions/widget-ad.php
+- functions/widget-ad125.php
+- functions/widget-ad256.php
+- functions/widget-fblikebox.php
+- functions/widget-social.php
+- functions/widget-subscribe.php
+- functions/widget-tweets.php
+- post-format/format-audio.php
+- post-format/format-gallery.php
+- post-format/format-image.php
+- post-format/format-video.php
+- post-format/format.php
+- woocommerce/product-searchform.php
+- woocommerce/cart/cart.php
+- woocommerce/cart/cart-totals.php
+- woocommerce/cart/cart-shipping.php
+- woocommerce/single-product/rating.php
+
+
+v1.0.7 (August 12, 2015)
+-----------------------------
+- Fixed WC v2.4.2 outdated template notice
+- Fixed single product add to cart button icon
+
+Files updated:
+- functions.php
+- style.css
+- css/woocommerce.css
+- woocommerce/content-product.php
+- woocommerce/content-product-home.php
+
+Files added:
+- woocommerce/loop/title.php
+
+
+v1.0.6 (Jun 17, 2015)
+-----------------------------
+- Fixed double cart totals on cart page
+- Fixed textdomain issue in cart-shipping.php
+- Fixed homepage wrong featured category issue
+- Fixed translation panel not showing in some cases
+
+Files Updated:
+- functions.php
+- style.css
+- woocommerce/cart/cart-shipping.php
+- options/fields/cats_select1/field_cats_select1.php
+- options/php-po/php-po.php
+
+
+v1.0.5 (May 17, 2015)
+-----------------------------
+- Fixed single product slider image variations issue
+
+Files Updated:
+- css/owl.carousel.css
+- js/owl.carousel.min.js
+- style.css
+
+
+v1.0.4 (Apr 21, 2015)
+-----------------------------
+- Fixed WC v2.3.8 outdated template notice
+
+Files Updated:
+- woocommerce/cart/cart.php
+- style.css
+
+
+v1.0.3 (Apr 09, 2015)
+-----------------------------
+- Fixed error in external link products description
+
+Files updated:
+- function.php
+- style.css
+
+
+v1.0.2 (Mar 29, 2015)
+-----------------------------
+- Fixed HTTPS issue in options panel.
+
+Files updated:
+- style.css
+- options/google-typography/google-typography.php
+- Created options/google-typography/ttf folder
+
+
+v1.0.1 (Mar 26, 2015)
+-----------------------------
+- Fixed wrong notices about CF Post Formats plugin.
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+
+
+v1.0 (Mar 24, 2015)
+-----------------------------
+- Theme Released
